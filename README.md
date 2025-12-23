@@ -1,10 +1,10 @@
 Output:
 
 ```pwsh
-Isolation code: 1 (1 = SNAPSHOT)
-[SNAPSHOT] Initial count: 0
+[SNAPSHOT] Began transaction with Isolation code: 1 (1 = SNAPSHOT)
+[SNAPSHOT] Count: 0
 [WRITER] Insert committed
 [SNAPSHOT] Count after insert: 0
-[SNAPSHOT] Transaction committed
-[FINAL] Count after snapshot closed: 1
+[SNAPSHOT] Transaction disposed
+[SNAPSHOT] Count after transaction disposed: 1
 ```
